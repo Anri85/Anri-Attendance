@@ -1,0 +1,32 @@
+{
+    "name": "pertemuan-8",
+    "version": "1.0.0",
+    "description": "Backend for final project employee attendance",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node ./src/server.js",
+        "dev": "nodemon ./src/server.js",
+        "migrate": "node-pg-migrate"
+    },
+    "author": "Ramdhani Arya",
+    "license": "ISC",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.2",
+        "ejs": "^3.1.8",
+        "express": "^4.18.1",
+        "html-pdf": "^3.0.1",
+        "jsonwebtoken": "^9.0.0",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.4-lts.1",
+        "nanoid": "^3.0.0",
+        "node-pg-migrate": "^6.2.2",
+        "pg": "^8.8.0",
+        "winston": "^3.8.2"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.19"
+    }
+}
